@@ -4,5 +4,6 @@ The program simulates a real multi-threaded application that performs hostname r
 
 * Build project: `mvn clean install`
 * Run project:
-
-    java -jar target/inet-address-host-lookup-1.0-SNAPSHOT-jar-with-dependencies.jar -poolSize 10 -maxSize 100 -host localhost -host www.google.com
+```
+java -jar target/inet-address-host-lookup-1.0-SNAPSHOT-jar-with-dependencies.jar -poolSize 10 -maxSize 100 -host localhost -host www.google.com
+```
